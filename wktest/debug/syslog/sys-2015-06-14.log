@@ -1,0 +1,109 @@
+[14-Jun-2015 12:11:15 PRC] PHP Fatal error:  Cannot redeclare class IndexController in /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/index/index.view.php on line 20
+[14-Jun-2015 12:11:15 PRC] PHP Stack trace:
+[14-Jun-2015 12:11:15 PRC] PHP   1. {main}() /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php:0
+[14-Jun-2015 12:11:15 PRC] PHP   2. include() /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php:8
+[14-Jun-2015 12:11:15 PRC] PHP   3. AppStart::run() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php:35
+[14-Jun-2015 12:11:15 PRC] PHP   4. AppStart::runStart() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php:82
+[14-Jun-2015 12:11:15 PRC] PHP   5. WorkerController->display() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php:121
+[14-Jun-2015 12:11:15 PRC] PHP   6. I() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:52
+[14-Jun-2015 20:47:44 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/foot.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:119
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php(2): WorkerController->i('foot')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(80): include('/Users/midoks/D...')
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(121): WorkerController->display()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Index')
+#5 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#6 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#7 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 119
+[14-Jun-2015 22:11:18 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/footer.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:119
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php(6): WorkerController->i('footer')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(80): include('/Users/midoks/D...')
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(121): WorkerController->display()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Index')
+#5 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#6 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#7 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 119
+[14-Jun-2015 22:11:19 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/footer.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:119
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php(6): WorkerController->i('footer')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(80): include('/Users/midoks/D...')
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(121): WorkerController->display()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Index')
+#5 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#6 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#7 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 119
+[14-Jun-2015 22:38:49 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/footer.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:120
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php(6): WorkerController->i('footer')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(80): include('/Users/midoks/D...')
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(121): WorkerController->display()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Index')
+#5 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#6 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#7 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 120
+[14-Jun-2015 22:39:02 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/footer.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:120
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php(6): WorkerController->i('footer')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(80): include('/Users/midoks/D...')
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(121): WorkerController->display()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Index')
+#5 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#6 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#7 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 120
+[14-Jun-2015 22:46:41 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Selfdefined.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:82
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(123): WorkerController->display()
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Selfdefined')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#5 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 82
+[14-Jun-2015 22:52:42 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Selfdefined.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:82
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(129): WorkerController->display()
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Selfdefined')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#5 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 82
+[14-Jun-2015 22:54:09 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Selfdefined.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:82
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(127): WorkerController->display()
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Selfdefined')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#5 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 82
+[14-Jun-2015 22:54:52 PRC] PHP Fatal error:  Uncaught exception 'Exception' with message 'not found /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Selfdefined.view.php' in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:82
+Stack trace:
+#0 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php(49): WorkerController->display_one('')
+#1 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(127): WorkerController->display()
+#2 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php(82): AppStart::runStart('Index', 'Selfdefined')
+#3 /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php(35): AppStart::run()
+#4 /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php(8): include('/Users/midoks/D...')
+#5 {main}
+  thrown in /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php on line 82
+[14-Jun-2015 23:10:29 PRC] PHP Fatal error:  Using $this when not in object context in /Users/midoks/Desktop/www/yaf_cachecha/1/wktest/views/Index/Index.view.php on line 2
+[14-Jun-2015 23:10:29 PRC] PHP Stack trace:
+[14-Jun-2015 23:10:29 PRC] PHP   1. {main}() /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php:0
+[14-Jun-2015 23:10:29 PRC] PHP   2. include() /Users/midoks/Desktop/www/yaf_cachecha/1/wktest.php:8
+[14-Jun-2015 23:10:29 PRC] PHP   3. AppStart::run() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/WorkerPHP.php:35
+[14-Jun-2015 23:10:29 PRC] PHP   4. AppStart::runStart() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php:82
+[14-Jun-2015 23:10:29 PRC] PHP   5. WorkerController->display() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/AppStart.class.php:122
+[14-Jun-2015 23:10:29 PRC] PHP   6. WorkerController->i() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:51
+[14-Jun-2015 23:10:29 PRC] PHP   7. I() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/core/WorkerController.class.php:88
+[14-Jun-2015 23:10:29 PRC] PHP   8. include() /Users/midoks/Desktop/www/yaf_cachecha/1/WorkerPHP/common/functions.php:48
